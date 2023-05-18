@@ -9,6 +9,10 @@ img{
     align-content: center;
 }
 
+i {
+  transition: .5s;
+}
+
 #presentacion {
   padding-right: 10%;
   right: 10px;
@@ -68,4 +72,14 @@ img{
 #button:hover span:after {
   opacity: 1;
   right: 0;
+}
+
+.col2:first-child {
+  border: 5px solid whitesmoke;
+}
+
+.col12 {
+  width: 100%;
+  margin: auto;
+  display: block;
 }
